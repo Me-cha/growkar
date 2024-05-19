@@ -1,0 +1,102 @@
+[
+  {
+    "Company Name": "AwesomeTech Co.",
+    "Total Sales Revenue": 10000,
+    "Average ROAS": 5,
+    "Total Advertising Spend": 2000,
+    "Average CPA (in USD)": 100,
+    "Conversion Rate": 0.02,
+    "Customer Lifetime Value": 500,
+    "Average Profit Margin": 0.1
+  },
+  {
+    "Company Name": "Fashionista Emporium",
+    "Total Sales Revenue": 20000,
+    "Average ROAS": 4,
+    "Total Advertising Spend": 5000,
+    "Average CPA (in USD)": 200,
+    "Conversion Rate": 0.03,
+    "Customer Lifetime Value": 600,
+    "Average Profit Margin": 0.15
+  },
+  {
+    "Company Name": "HealthyLife Supplements",
+    "Total Sales Revenue": 30000,
+    "Average ROAS": 3,
+    "Total Advertising Spend": 6000,
+    "Average CPA (in USD)": 300,
+    "Conversion Rate": 0.04,
+    "Customer Lifetime Value": 700,
+    "Average Profit Margin": 0.2
+  },
+  {
+    "Company Name": "TrendyTees Apparel",
+    "Total Sales Revenue": 40000,
+    "Average ROAS": 2,
+    "Total Advertising Spend": 7000,
+    "Average CPA (in USD)": 400,
+    "Conversion Rate": 0.05,
+    "Customer Lifetime Value": 800,
+    "Average Profit Margin": 0.25
+  },
+  {
+    "Company Name": "EcoFriendly Home Goods",
+    "Total Sales Revenue": 50000,
+    "Average ROAS": 1,
+    "Total Advertising Spend": 8000,
+    "Average CPA (in USD)": 500,
+    "Conversion Rate": 0.06,
+    "Customer Lifetime Value": 900,
+    "Average Profit Margin": 0.3
+  },
+  {
+    "Company Name": "Gourmet Marketplace",
+    "Total Sales Revenue": 60000,
+    "Average ROAS": 0.5,
+    "Total Advertising Spend": 9000,
+    "Average CPA (in USD)": 600,
+    "Conversion Rate": 0.07,
+    "Customer Lifetime Value": 1000,
+    "Average Profit Margin": 0.35
+  },
+  {
+    "Company Name": "BeautyBloom Cosmetics",
+    "Total Sales Revenue": 70000,
+    "Average ROAS": 0.4,
+    "Total Advertising Spend": 10000,
+    "Average CPA (in USD)": 700,
+    "Conversion Rate": 0.08,
+    "Customer Lifetime Value": 1100,
+    "Average Profit Margin": 0.4
+  },
+  {
+    "Company Name": "SportsGear Direct",
+    "Total Sales Revenue": 80000,
+    "Average ROAS": 0.3,
+    "Total Advertising Spend": 11000,
+    "Average CPA (in USD)": 800,
+    "Conversion Rate": 0.09,
+    "Customer Lifetime Value": 1200,
+    "Average Profit Margin": 0.45
+  },
+  {
+    "Company Name": "PetParadise Online",
+    "Total Sales Revenue": 90000,
+    "Average ROAS": 0.2,
+    "Total Advertising Spend": 12000,
+    "Average CPA (in USD)": 900,
+    "Conversion Rate": 0.1,
+    "Customer Lifetime Value": 1300,
+    "Average Profit Margin": 0.5
+  },
+  {
+    "Company Name": "TechTrend Electronics",
+    "Total Sales Revenue": 100000,
+    "Average ROAS": 0.1,
+    "Total Advertising Spend": 13000,
+    "Average CPA (in USD)": 1000,
+    "Conversion Rate": 0.11,
+    "Customer Lifetime Value": 1400,
+    "Average Profit Margin": 0.55
+  }
+]
