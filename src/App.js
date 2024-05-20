@@ -35,10 +35,10 @@ function App() {
         justifyContent: "space-evenly",
       }}
     >
-      {/* <LoginPage /> */}
-      <MenuAppBar />
-      {/* <TableComponent fields={fields} data={tableData} /> */}
-      <div
+      <LoginPage />
+      {/* <MenuAppBar />
+      <TableComponent fields={fields} data={tableData} /> */}
+      {/* <div
         style={{
           display: "flex",
           flexDirection: "row",
@@ -60,7 +60,7 @@ function App() {
           calculationType="totalEntries"
           header="Cost per Acquisition (CPA)"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

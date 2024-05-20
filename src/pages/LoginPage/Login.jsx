@@ -14,6 +14,10 @@ import {
 } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 import beehivebgImg from "../../asset/beehiveblue.png";
+import { validateLogin } from "../../Middleware/validation";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 const LoginPageContainer = styled("div")({
   display: "flex",
@@ -87,14 +91,26 @@ const LoginComponent = styled("div")({
 
 function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
 
   const handleMouseDownPassword = (event) => {
     event.preventDefault();
   };
+
+  const handleLogin = () => {
+    const validation = validateLogin(phoneNumber, password);
+    if (!validation.valid) {
+      toast.error(validation.message);
+      return;
+    }
+    toast.success("Login Successful");
+  };
   return (
     <LoginPageContainer>
+      <ToastContainer />
       <LeftComponent>
         <img
           src={beehivebgImg}
@@ -146,6 +162,8 @@ function LoginPage() {
                 fullWidth
                 size="small"
                 sx={{ marginTop: "5px" }}
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)}
               />
             </div>
             <div className="LoginFields">
@@ -157,6 +175,8 @@ function LoginPage() {
                   size="small"
                   id="outlined-adornment-password"
                   type={showPassword ? "text" : "password"}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   endAdornment={
                     <InputAdornment position="end">
                       <IconButton
@@ -188,6 +208,7 @@ function LoginPage() {
               className="LoginFields"
               variant="contained"
               sx={{ backgroundColor: "#F8990A" }}
+              onClick={handleLogin}
             >
               Login
             </Button>
